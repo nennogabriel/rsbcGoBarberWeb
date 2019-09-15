@@ -44,6 +44,7 @@ export const Time = styled.li`
     color: ${props => (props.avaliable ? '#999' : '#7159c1')};
     font-size: 20px;
     font-weight: normal;
+    ${props => (props.avaliable ? '' : 'font-weight: bold;')};
   }
 
   span {
